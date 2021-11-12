@@ -1,9 +1,21 @@
-<mxfile host="app.diagrams.net" modified="2021-11-12T09:21:52.887Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36 Edg/93.0.961.52" etag="fIcZGzUwQ-W6alisz8CF" version="14.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-12T09:51:49.891Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36 Edg/93.0.961.52" etag="DZlIy6RgSgtsqs-6yHL3" version="14.8.6" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="mdC14NxBIMde7mDdin4W-55" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="470" y="830" width="430" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mdC14NxBIMde7mDdin4W-53" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;sketch=0;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;" vertex="1" parent="mdC14NxBIMde7mDdin4W-55">
+          <mxGeometry width="430" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mdC14NxBIMde7mDdin4W-54" value="【回调不成功】" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=0;fontColor=#46495D;" vertex="1" parent="mdC14NxBIMde7mDdin4W-55">
+          <mxGeometry x="60" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mdC14NxBIMde7mDdin4W-56" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;sketch=0;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;width=50;height=20;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1030" width="610" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="游戏APP" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;shadow=0;strokeWidth=1;fillColor=#B2C9AB;strokeColor=#788AA3;gradientDirection=south;perimeterSpacing=0;fontColor=#46495D;rounded=1;glass=0;sketch=0;" parent="1" vertex="1">
           <mxGeometry x="120" y="80" width="100" height="1200" as="geometry" />
         </mxCell>
@@ -144,75 +156,75 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="mdC14NxBIMde7mDdin4W-29" value="" style="points=[];perimeter=orthogonalPerimeter;shadow=0;strokeWidth=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
-          <mxGeometry x="845" y="860" width="10" height="40" as="geometry" />
+          <mxGeometry x="845" y="850" width="10" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="mdC14NxBIMde7mDdin4W-30" value="支付成功回调" style="verticalAlign=bottom;endArrow=block;entryX=0.6;entryY=0;shadow=0;strokeWidth=1;strokeColor=#788AA3;fontColor=#46495D;exitX=0.1;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mdC14NxBIMde7mDdin4W-29" target="mdC14NxBIMde7mDdin4W-31">
+        <mxCell id="mdC14NxBIMde7mDdin4W-30" value="支付成功回调" style="verticalAlign=bottom;endArrow=block;entryX=0.6;entryY=0;shadow=0;strokeWidth=1;strokeColor=#788AA3;fontColor=#46495D;exitX=0;exitY=0.059;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mdC14NxBIMde7mDdin4W-29" target="mdC14NxBIMde7mDdin4W-31">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="839" y="870.6500000000001" as="sourcePoint" />
             <mxPoint x="340" y="870" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mdC14NxBIMde7mDdin4W-31" value="" style="points=[];perimeter=orthogonalPerimeter;shadow=0;strokeWidth=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
-          <mxGeometry x="675" y="870" width="10" height="160" as="geometry" />
+          <mxGeometry x="675" y="860" width="10" height="150" as="geometry" />
         </mxCell>
         <mxCell id="mdC14NxBIMde7mDdin4W-32" value="" style="points=[];perimeter=orthogonalPerimeter;shadow=0;strokeWidth=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
-          <mxGeometry x="505" y="890" width="10" height="360" as="geometry" />
+          <mxGeometry x="505" y="880" width="10" height="380" as="geometry" />
         </mxCell>
-        <mxCell id="mdC14NxBIMde7mDdin4W-33" value="支付成功回调" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;strokeColor=#788AA3;fontColor=#46495D;exitX=-0.1;exitY=0.194;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.1;entryY=0.031;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mdC14NxBIMde7mDdin4W-31" target="mdC14NxBIMde7mDdin4W-32">
+        <mxCell id="mdC14NxBIMde7mDdin4W-33" value="支付成功回调" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;strokeColor=#788AA3;fontColor=#46495D;exitX=-0.1;exitY=0.194;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.9;entryY=0.028;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mdC14NxBIMde7mDdin4W-31" target="mdC14NxBIMde7mDdin4W-32">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="680" y="910" as="sourcePoint" />
-            <mxPoint x="540" y="900" as="targetPoint" />
+            <mxPoint x="550" y="899" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mdC14NxBIMde7mDdin4W-34" value="" style="points=[];perimeter=orthogonalPerimeter;shadow=0;strokeWidth=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
-          <mxGeometry x="510" y="910" width="10" height="80" as="geometry" />
+          <mxGeometry x="510" y="900" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="mdC14NxBIMde7mDdin4W-35" value="更新业务订单" style="verticalAlign=bottom;endArrow=block;entryX=1.2;entryY=0.775;shadow=0;strokeWidth=1;strokeColor=#788AA3;fontColor=#46495D;edgeStyle=orthogonalEdgeStyle;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.175;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="mdC14NxBIMde7mDdin4W-34" target="mdC14NxBIMde7mDdin4W-34">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="532" y="924.54" as="sourcePoint" />
-            <mxPoint x="530" y="975.5" as="targetPoint" />
+            <mxPoint x="532" y="914.54" as="sourcePoint" />
+            <mxPoint x="530" y="965.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="571" y="924" />
-              <mxPoint x="571" y="972" />
+              <mxPoint x="571" y="914" />
+              <mxPoint x="571" y="962" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mdC14NxBIMde7mDdin4W-36" value="通知游戏发货" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;strokeColor=#788AA3;fontColor=#46495D;exitX=1.2;exitY=0.414;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.1;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mdC14NxBIMde7mDdin4W-32" target="mdC14NxBIMde7mDdin4W-38">
+        <mxCell id="mdC14NxBIMde7mDdin4W-36" value="通知游戏发货" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;strokeColor=#788AA3;fontColor=#46495D;entryX=-0.1;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.2;exitY=0.474;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="mdC14NxBIMde7mDdin4W-32" target="mdC14NxBIMde7mDdin4W-38">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="570" y="1090" as="sourcePoint" />
+            <mxPoint x="530" y="1060" as="sourcePoint" />
             <mxPoint x="1000" y="1040" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mdC14NxBIMde7mDdin4W-37" value="success" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;strokeColor=#788AA3;fontColor=#46495D;entryX=-0.2;entryY=0.819;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.1;exitY=0.306;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="mdC14NxBIMde7mDdin4W-32" target="mdC14NxBIMde7mDdin4W-31">
+        <mxCell id="mdC14NxBIMde7mDdin4W-37" value="success" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;strokeColor=#788AA3;fontColor=#46495D;exitX=1;exitY=0.289;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.873;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mdC14NxBIMde7mDdin4W-32" target="mdC14NxBIMde7mDdin4W-31">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="520" y="1019" as="sourcePoint" />
-            <mxPoint x="640" y="1020" as="targetPoint" />
+            <mxPoint x="530" y="992" as="sourcePoint" />
+            <mxPoint x="660" y="992" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mdC14NxBIMde7mDdin4W-38" value="" style="points=[];perimeter=orthogonalPerimeter;shadow=0;strokeWidth=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
-          <mxGeometry x="995" y="1030" width="10" height="120" as="geometry" />
+          <mxGeometry x="995" y="1050" width="10" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="mdC14NxBIMde7mDdin4W-39" value="success" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;strokeColor=#788AA3;fontColor=#46495D;exitX=-0.1;exitY=0.871;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.3;entryY=0.673;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mdC14NxBIMde7mDdin4W-38" target="mdC14NxBIMde7mDdin4W-32">
+        <mxCell id="mdC14NxBIMde7mDdin4W-39" value="success" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;strokeColor=#788AA3;fontColor=#46495D;exitX=-0.1;exitY=0.871;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.9;entryY=0.718;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mdC14NxBIMde7mDdin4W-38" target="mdC14NxBIMde7mDdin4W-32">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="875" y="1100" as="sourcePoint" />
             <mxPoint x="520" y="1088" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mdC14NxBIMde7mDdin4W-40" value="" style="points=[];perimeter=orthogonalPerimeter;shadow=0;strokeWidth=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
-          <mxGeometry x="510" y="1160" width="10" height="80" as="geometry" />
+          <mxGeometry x="510" y="1170" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="mdC14NxBIMde7mDdin4W-41" value="更新业务订单" style="verticalAlign=bottom;endArrow=block;entryX=1.2;entryY=0.775;shadow=0;strokeWidth=1;strokeColor=#788AA3;fontColor=#46495D;edgeStyle=orthogonalEdgeStyle;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.175;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="mdC14NxBIMde7mDdin4W-40" target="mdC14NxBIMde7mDdin4W-40">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="532" y="1174.54" as="sourcePoint" />
-            <mxPoint x="530" y="1225.5" as="targetPoint" />
+            <mxPoint x="532" y="1184.54" as="sourcePoint" />
+            <mxPoint x="530" y="1235.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="571" y="1174" />
-              <mxPoint x="571" y="1222" />
+              <mxPoint x="571" y="1184" />
+              <mxPoint x="571" y="1232" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="mdC14NxBIMde7mDdin4W-42" value="" style="points=[];perimeter=orthogonalPerimeter;shadow=0;strokeWidth=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="1060" width="10" height="40" as="geometry" />
+          <mxGeometry x="1000" y="1090" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mdC14NxBIMde7mDdin4W-45" value="游戏内添加道具" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;strokeColor=#788AA3;fontColor=#46495D;exitX=0;exitY=0.125;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.1;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mdC14NxBIMde7mDdin4W-42" target="mdC14NxBIMde7mDdin4W-46">
           <mxGeometry relative="1" as="geometry">
@@ -221,13 +233,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="mdC14NxBIMde7mDdin4W-46" value="" style="points=[];perimeter=orthogonalPerimeter;shadow=0;strokeWidth=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
-          <mxGeometry x="165" y="1060" width="10" height="60" as="geometry" />
+          <mxGeometry x="165" y="1090" width="10" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mdC14NxBIMde7mDdin4W-47" value="success" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;strokeColor=#788AA3;fontColor=#46495D;entryX=0.1;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.683;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="mdC14NxBIMde7mDdin4W-46" target="mdC14NxBIMde7mDdin4W-42">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="190" y="1120" as="sourcePoint" />
             <mxPoint x="349" y="1120.08" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="mdC14NxBIMde7mDdin4W-48" value="success" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;strokeColor=#788AA3;fontColor=#46495D;entryX=-0.1;entryY=0.929;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.1;exitY=0.98;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="mdC14NxBIMde7mDdin4W-31" target="mdC14NxBIMde7mDdin4W-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="982.21" as="sourcePoint" />
+            <mxPoint x="850" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mdC14NxBIMde7mDdin4W-57" value="【回调不成功】" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=0;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="445.5" y="1030" width="129" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
